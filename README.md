@@ -48,14 +48,14 @@ A API lida com um objeto `Usuário` com a seguinte estrutura:
 
 3. **Instale as dependências com o Poetry:**
    ```bash
-     poetry install
+   poetry install
    ```
 5. **Inicie o ambiente virtual:**
    ```bash
-     poetry shell
+   poetry shell
    ```
 7. **Inicie o servidor FastAPI:**
    Utilizando o taskpy, podemos iniciar o servidor digitando:
    ```bash
-     task run
+   task run
    ```
