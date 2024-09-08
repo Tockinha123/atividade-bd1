@@ -14,7 +14,10 @@ database = []
     '/create_user/', status_code=HTTPStatus.CREATED, response_model=UserPublic
 )
 def create_user(user: UserSchema):
-    db_user = UserDB(id=len(database + 1), **user.model_dump())
+    db_user = UserDB(
+        id=len(database) + 1,
+        **user.model_dump(),
+    )
 
     database.append(db_user)
 

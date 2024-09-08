@@ -36,7 +36,7 @@ lint = 'ruff check .; ruff check . --diff'
 format = 'ruff check . --fix; ruff format .'
 run = 'fastapi dev user_registry/app.py'
 pre_test = 'task lint'
-test = 'pytest -s -x --cov=fast_zero -vv'
+test = 'pytest -s -x --cov=user_registry -vv'
 post_test = 'coverage html'
 
 [build-system]
