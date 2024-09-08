@@ -55,7 +55,9 @@ A API lida com um objeto `Usuário` com a seguinte estrutura:
    poetry shell
    ```
 7. **Inicie o servidor FastAPI:**
+   
    Utilizando o taskpy, podemos iniciar o servidor digitando:
+   
    ```bash
    task run
    ```
