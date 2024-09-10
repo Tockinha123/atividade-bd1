@@ -25,7 +25,7 @@ A API lida com um objeto `Usuário` com a seguinte estrutura:
 
 ### 📋 Requisitos
 
-- **Python 3.9+**
+- **Python 3.12+**
 - **Poetry**
 
 ### 🛠️ Passos para Configuração
